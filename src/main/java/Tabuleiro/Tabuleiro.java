@@ -31,4 +31,13 @@ public class Tabuleiro {
     public void setColunas(int colunas) {
         this.colunas = colunas;
     }
+
+    //metodos
+    public Peca peca(int linha,int coluna){
+        return pecas[linha][coluna];
+    }
+    //sobreposicao ,mas dessa vez pela posicao
+    public Peca peca(Posicao posicao){
+        return pecas[posicao.getLinha()][posicao.getColuna()];
+    }
 }
