@@ -40,4 +40,9 @@ public class Tabuleiro {
     public Peca peca(Posicao posicao){
         return pecas[posicao.getLinha()][posicao.getColuna()];
     }
+
+    public void localPeca(Peca peca,Posicao posicao){//eu estou pegando esta matriz e atribuindo a ela a matriz que eu informei
+        pecas[posicao.getLinha()][posicao.getColuna()] = peca;
+        peca.posicao=posicao;
+    }
 }

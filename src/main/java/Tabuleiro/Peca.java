@@ -1,10 +1,12 @@
 package Tabuleiro;
-//a chave peça é protegida,ou seja,eu não quero que ela seja vista
-// já que ela é uma posicao simples de matriz
+//é nessa classe aqui que eu vou definir os parametros do jogo de xadrez
+//ou seja,é nesta classe aqui que eu vou definir os tamanhos do meu jogo de xadrez
 /*Board>Tabuleiro
 Position>Posicao
 Piece>Peca
-* */
+ChessPiece>Peca de xadrez
+ChessMatch>Partida Xadrez
+*/
 public class Peca {
     protected Posicao posicao;
 
